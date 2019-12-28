@@ -1,6 +1,6 @@
 import argparse
 
-from utils import init_world, cycle
+from utils import init_world, update_world
 
 
 def main():
