@@ -58,7 +58,7 @@ def update_world(frame: int, img: Array, grid: Array) -> Tuple:
     return img,
 
 
-def animate(grid, update_interval: int):
+def animate(grid: Array, update_interval: int):
 
     fig, ax = plt.subplots()
     img = ax.imshow(grid, interpolation='nearest')
