@@ -1,6 +1,7 @@
 import argparse
 
-from utils import init_world, animate
+from utils import animate
+from world_jobs import init_world
 
 
 def main():
@@ -10,6 +11,7 @@ def main():
     grid = init_world(int(args.grid_size), args.clean)
 
     animate(grid, int(args.interval))
+
 
 def parser_args_run():
 
