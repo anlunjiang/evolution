@@ -1,7 +1,7 @@
 import argparse
 
-from utils import animate
-from world_jobs import init_world
+from src.utils import animate
+from src.world_jobs import init_world
 
 
 def main():
