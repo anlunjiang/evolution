@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from nptyping import Array
 
-from src.world_jobs import update_world
+from world_jobs import update_world
 
 
 def animate(grid: Array, update_interval: int):
